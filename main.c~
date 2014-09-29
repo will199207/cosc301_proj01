@@ -41,7 +41,7 @@ void process_data(FILE *input_file) {
 	system1 = (system_f.tv_sec)-(system_s.tv_sec);
 	system2 = (system_f.tv_usec)-(system_s.tv_usec);
 
-	printf("User time: %f s %f ms\n", user1, user2);
+	printf("User time: %fs %f ms\n", user1, user2);
 	printf("System time: %f s %f ms\n", system1, system2);
 return;
 

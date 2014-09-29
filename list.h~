@@ -10,7 +10,7 @@ struct node {
 /* your function declarations associated with the list */
 void append(int num, struct node** head);
 struct node** parse_numbers(char *s, struct node **head);
-void get_input(FILE * input);
+struct node** get_input(FILE * input);
 void print_list(struct node **head);
 void list_sort(struct node **head);
 void swap(int first, int second); 
